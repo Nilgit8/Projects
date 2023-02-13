@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+            background-color: black;
+        }
+        div{
+            height: 300px;
+            width: 450px;
+            border: 2px solid;
+            margin: auto;
+            margin-top: 200px;
+            padding: 20px;
+            background-color: yellow;
+            border-radius: 20px;   
+        }
+        h1{
+            text-align: center;
+            color: blue;
+        }
+        .name{
+         font-size: 20px;
+         color: rgb(9, 149, 209);
+         margin-top: 40px;
+        }
+        #inp{
+            
+            width: 240px;
+            height: 25px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        #email{
+            width: 240px;
+            height: 25px;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+        #number{
+            width: 240px;
+            height: 25px;
+            margin-top: 20px;
+            margin-left: 80px;
+        }
+        #submit{
+            margin-left: 160px;
+            margin-top: 30px;
+            font-size: 20px;
+            padding: 10px;
+            background-color: green;
+            color: white;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form action="https://getform.io/f/366d0754-538c-45c5-984f-b02b6a20e91e" method="post" onsubmit="Notes()"><h1>Student Detail</h1>
+            <label class="name" for=""><b>Student Full-Name : </b></label>
+            <input id="inp" type="text" name="name" placeholder="Enter Your Full Name"><br>
+            <label class="name" for=""><b>Email id : </b></label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email Id"><br>
+            <label for="number" class="name"><b> Mobile No :</b></label>
+            <input type="number" name="Mobile" id="number" placeholder="Enter Your Mobile Number">
+            <button id="submit" type="submit" onpr>SUBMIT</button>   
+             </form>
+    </div>
+
+</body>
+</html>
