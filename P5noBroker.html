@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        #nav {
+            font-weight: bold;
+            height: 80px;
+            width: 100%;
+            border: 1px solid red;
+            /* position: fixed; */
+            display: flex;
+            gap: 5px;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+            margin: auto;
+            box-shadow: 100px;
+        }
+
+        #nbroker {
+            margin: auto;
+            margin-left: 0px;
+            margin-bottom: 60px;
+
+        }
+
+        #log {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            height: auto;
+            width: auto;
+            border: 1px solid;
+            display: flex;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+        }
+
+        #bookingimg {
+            display: inline;
+        }
+
+        #box1 {
+            height: 30px;
+            width: 140px;
+            text-align: center;
+
+        }
+
+        #box3 {
+
+            width: 150px;
+            text-align: center;
+            background-color: #07a094;
+            color: #fff;
+        }
+
+        #box4 {
+            border: none;
+        }
+
+        #box5 {
+            border: none;
+            border-left: 1px solid;
+            border-right: 1px solid;
+        }
+
+        #box6 {
+            border: none;
+        }
+
+        #head {
+            text-align: center;
+            margin-top: 60px;
+            color: rgb(252, 22, 60);
+        }
+
+        #main {
+            margin: 0 auto;
+            border: 1px solid yellow;
+
+        }
+
+        #paint {
+            width: 250px;
+            height: auto;
+            border: 1px solid;
+            padding: 5px;
+            margin: 25px auto;
+            background-color: rgb(244, 211, 216);
+            /* margin-top: 25px; */
+        }
+
+        #buy {
+            width: 100vw;
+            height: 100%;
+            /* border: 1px solid; */
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+        .boxs {
+            width: 130px;
+            height: 40px;
+            border: 1px solid gray;
+            color: gray;
+            text-align: center;
+            padding: 10px 15px;
+            font-weight: bold;
+
+        }
+
+        #state {
+            width: 120px;
+
+        }
+
+        #search {
+            height: 100%;
+            width: 1000px;
+            /* border: 1px solid; */
+            /* margin: 0 auto;
+             */
+            margin-left: 500px;
+            display: inline-block;
+            display: flex;
+        }
+
+        .parent {
+            margin: 0 auto;
+            border: 2px solid red;
+            /* flex-direction: column; */
+            /* justify-content: start; */
+
+        }
+
+        #searchip {
+            width: 400px;
+            height: 40px;
+        }
+
+        #state {
+            height: 40px;
+        }
+
+        #search1 {
+            height: 40px;
+            width: 50px;
+        }
+
+        #radio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            width: 500px;
+            height: 40px;
+            border: 1px solid;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        h4 {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        #property {
+            width: 200px;
+            height: 45px;
+            border: 1px solid;
+            margin: 20px auto;
+            padding: 12px;
+            text-align: center;
+            background-color: rgb(196, 131, 141);
+            color: white;
+        }
+
+        #pay {
+            color: white;
+            width: 100%;
+            height: 60px;
+            background-color: rgb(4, 4, 87);
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        #pr {
+            gap: 10px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        hr {
+            border: none;
+            border-bottom: 1px solid grey;
+            display: inline-block;
+            width: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="nbroker"><img id="nbimg" src="./Image/nb_logo_new_trans.svg" alt=""></div>
+        <div id="log">
+            <div class="box" id="box1"><img id="bookingimg" src="./Image/myBooking.svg" alt=""> My Bookings</div>
+            <div class="box" id="box2"><img src="./Image/payrent.png" alt=""> Pay Rent</div>
+            <div class="box" id="box3">For Property Owners</div>
+            <div class="box" id="box4">Sign Up</div>
+            <div class="box" id="box5">Log In</div>
+            <div class="box" id="box6">Menu</div>
+        </div>
+    </nav>
+    <div class="parent">
+        <div id="main">
+            <h1 id="head">World's Largest NoBrokerage Property Site</h1>
+            <div id="paint">Painting and Cleaning| Upto 50%Off</div>
+            <div id="buy">
+                <div class="boxs">Buy</div>
+                <div class="boxs" id="rent">Rent</div>
+                <div class="boxs">Commercial</div>
+            </div>
+            <div id="search">
+                <select name="" id="state">
+                    <option value="">Banglore</option>
+                    <option value="">Pune</option>
+                    <option value="">Chennai</option>
+                </select>
+                <input id="searchip" type="text" placeholder="Search upto 3 localities or landmarks">
+                <button id="search1">Search</button>
+            </div>
+            <div id="radio">
+                <input type="radio" name="full house" id="full house">full house <input type="radio" name=""
+                    id="">PG/Hostels <input type="radio" name="" id="">Flatmates
+                <select name="BHK" id="BHK">BHK Type
+                    <option value="none" selected>BHK Type</option>
+                    <!-- <input type="checkbox" name="" id=""> -->
+                    <option value="">1RK</option>
+                    <option value="">1BHK</option>
+                </select>
+
+                <select name="" id="available">
+                    <option value="none">Avaibility</option>
+                    <option value="">10days</option>
+                    <option value="">20days</option>
+                </select>
+
+            </div>
+            <div id="pr">
+                <hr>
+                <span>Are You Property Owner?</span>
+                <hr>
+            </div>
+            <div id="property">Post Free Property Ad?</div>
+            <nav id="pay"><b> Maintenance and Rent with Credit Card!</b></nav>
+        </div>
+    </div>
+
+</body>
+
+</html>

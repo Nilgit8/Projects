@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkart</title>
+    <style>
+        #parent{
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 600px;
+            height: 500px;
+            border: 1px solid yellow;
+            display: flex;
+        }
+        .box{
+            border: 1px solid ;
+            padding: 25px;
+        }
+        #box1{
+            width: 200px;
+            background-color: rgb(18, 18, 252);
+            padding: 20px;
+            border: 1px solid orangered;
+        }
+        #box2{
+            width: 398px;
+            background-color: white;
+            border: 1px solid blue;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        #login{
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+            font-family: Roboto,Arial,sans-serif;
+        }
+        #log{
+            padding: 13px;
+        }
+        .access{
+            margin-top: 20px;
+            color: hsl(205, 20%, 76%);
+            font-family: Roboto,Arial,sans-serif;
+            font-size: 17px;
+        }
+        #img{
+            position: relative;
+            top: 220px;
+        }
+        .ip_name{
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid red ;
+            background: white;
+            outline: none;
+        }
+        #term{
+            font-size: 13px;
+            font-family: Roboto,Arial,sans-serif;
+        }
+        #otp{
+            height: 50px;
+            width: 100%;
+            border: 1px solid;
+            background-color: #da8301 ;
+            color: white;
+            text-align: center;
+            /* margin-top: 10px; */
+            padding: 10px;
+        }
+        #create{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="box" id="box1">
+            <div id="log">
+                <span id="login">Login</span>
+                <div class="access">Get access to your Orders, Wishlist and Recommendations</div>
+                <div id="img"><img src="./login_img_c4a81e.png" height="110px" alt=""></div>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <div id="padding">
+               <form action=""> <input class="ip_name" autocomplete="off" type="text" placeholder="Enter E-mail/Mobile number"> </form><br><br>
+                <p id="term">By continuing, you agree to Flipkart's <a href="#"> Terms of Use </a> and <a href="#"> Privacy Policy.</a></p>
+               <form action=""><input id="otp" type="submit" value="Request OTP"></form> 
+            </div>
+            <div id="create"><a href="#">New to Flipkart? Create an account</a></div>
+        </div>
+    </div>
+</body>
+</html>
